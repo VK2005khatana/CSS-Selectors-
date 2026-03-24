@@ -1,0 +1,44 @@
+/* Step 3: Body background color */
+body {
+    background-color: #f0f0f0; /* Aap apni pasand ka color rakh sakte hain */
+    font-family: Arial, sans-serif;
+}
+
+/* Step 5: Dark blue color for class 'head' */
+.head {
+    color: darkblue;
+}
+
+/* Step 6: Background color for 2nd heading using id */
+#bglime {
+    background-color: lime;
+}
+
+/* Step 7: Text color of "head" in 2nd heading red */
+/* Note: Since the ID is more specific, we target it directly */
+#bglime {
+    color: red;
+}
+
+/* Step 8: Paragraphs with white text using only p tag */
+p {
+    color: white;
+    background-color: #333; /* Background takki white text dikhe */
+    padding: 10px;
+}
+
+/* Step 9 & 10: Customise second paragraph with id 'para' */
+#para {
+    color: black; /* Step 10: set to black */
+    font-size: 20px; /* Step 10: increase font-size */
+    background-color: lightgreen; /* Step 9 logic for green feel */
+}
+
+/* Step 11: Style "here" text without inline CSS or id/class */
+/* Using descendant selector to find span inside list items */
+li span {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
